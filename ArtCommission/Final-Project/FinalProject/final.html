@@ -1,0 +1,132 @@
+<!--
+ Filename: final.html
+ Written by: Jessica Taylor
+ Purpose: Finalize a website and a form
+ Date: 7 December 2021
+ Modification History:
+ Original Build
+-->
+
+<!--
+    Browser Testing:
+    CHROME: Works as intended
+    EDGE: Works as intended
+    FIREFOX: Works as intended
+    SAFARI: Works as intended
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Final Release</title>
+
+    <link rel="stylesheet" href="css/final.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<link href="../../Theme/jquery-ui.css" rel="stylesheet">
+	<script src="../../Theme/jquery-ui.js"></script>
+
+	<script src="../Validation/dist/jquery.validate.js"></script>
+	<script src="javascript/final.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Final Release</h1>
+        <h6>By Jessica Taylor</h6>
+    </header>
+    <div class="container" id="container-1">
+        <div class="content">
+            <div id="contact1">
+                <h1>Looking to Commission an Artist?</h1>
+            </div>
+            <div id="contact2">
+                <p>Fill out the form below and I will contact you shortly.</p>
+            </div>
+            <form id="form">
+                <div id="accordion">
+                    <h2>User Info</h2>
+                    <div>
+                        <div class="info-text">
+                            <div class="info-text-field">
+                                <input type="text" id="first" name="first" placeholder="John" required autofocus>
+                            </div>
+                            <div class="info-text-field">
+                                <input type="text" id="last" name="last" placeholder="Smith">
+                            </div>
+                            <div class="info-text-field">
+                                <input type="tel" id="phone" name="phone" placeholder="(317) 555-1234">
+                            </div>
+                            <div class="info-text-field">
+                                <input type="email" id="email" name="email" placeholder="johnsmith@gmail.com">
+                            </div>
+                            <div class="info-text-field">
+                                <input type="text" id="username" name="userName">
+                            </div>
+                            <div class="info-text-field">
+                                <input type="password" id="password" name="password">
+                            </div>
+                        </div>
+    
+                        <div class="info-text-label">
+                            <label for="first">First Name</label>
+                            <label for="last">Last Name</label>
+                            <label for="phone">Phone</label>
+                            <label for="email">Email</label>
+                            <label for="username">Username</label>
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+    
+                    <h2>Specifications</h2>
+                    <div>
+                        <label for="autocomplete">How did you hear about me?</label><br><br>
+                        <input id="autocomplete" name="heard"><br><br>
+    
+                        <div>
+                            <p>Please select the desired specifications</p><div id="cAfter"></div><br>
+                            <input id= "cOption1" name="type" type="checkbox" value="Lineart">
+                            <label for="cOption1">Lineart</label><br>
+                            <input id= "cOption2" name="type" type="checkbox" value="Color">
+                            <label for="cOption2">Color</label><br>
+                            <input id= "cOption3"  name="type" type="checkbox" value="Background">
+                            <label for="cOption3">Background</label><br><br>
+                        </div>
+    
+                        <div>
+                            <p>How would you like me to reach out to you?</p><br>
+                            <input id="rOption1" name="contact" type="radio" value="Phone" checked>
+                            <label for="rOption1">Phone</label><br>
+                            <input id="rOption2" name="contact" type="radio" value="Email">
+                            <label for="rOption2">Email</label><br>
+                            <input id="rOption3" name="contact" type="radio" value="Phone & Email">
+                            <label for="rOption3">Both</label><br>
+                        </div><br>
+
+                        <label for="spinner">Please enter the number of characters</label><br><br>
+                        <input id="spinner" name="spinner"><br><br>    
+
+                        <label for="datepicker">Please select the date you would like to reserve:</label><br><br>
+                        <input type="text" id="datepicker" name="day"><br><br>
+               
+
+                       
+                    </div>
+                </div>
+                <br><br>
+                <input type="submit">
+                <input type="reset">
+                
+            </form>
+
+            <div id="output-area">
+                <p id="output"></p>
+            </div>
+            
+        </div>
+    </div>
+ 
+</body>
+
+</html>

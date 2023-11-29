@@ -1,0 +1,139 @@
+/*
+ Filename: final.css
+ Written by: Jessica Taylor
+ Purpose: Finalize a website and a form
+ Date: 7 December 2021
+ Modification History:
+ Original Build
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html,                                                       
+body {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e5e5e5;
+    color: white;
+    font-size: 14px;
+}
+
+header {
+    height: 15%;
+    width: 100%;
+    background-color: #14213d;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: white;
+    padding:30px 150px;
+}
+
+header p {
+    padding-left: 2em;
+}
+
+#container-1 {
+    height: 85%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: 150%;
+    width: 80%;
+	margin-top: 25%;
+    background-color: white;
+}
+
+#contact1 {
+	height: 10%;
+	width: 95%;
+	background-color: #14213d;
+	margin: 0 auto;
+	margin-top: 2.5%;
+	display: flex;
+	align-items: center;
+}
+
+#contact1 h1 {
+	font-family: 'Times New Roman', Times, serif;
+	padding-left: 2.5%;
+}
+
+#contact2 {
+	height: 5%;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 1.5%;
+	background-color: #e07a5f;
+	display: flex;
+	align-items: center;
+}
+
+#contact2 p {
+	font-style: italic;
+	padding-left: 2.5%;
+}
+
+#form {
+	margin: 20px;			/* Set margin of form */
+	margin-left: 2%;
+	width: 50%;			/* Set width of form */
+	position: absolute;
+}
+	
+.info-text {
+	width: 70%;
+	margin-bottom: 15px;
+	float: right;
+} .info-text .info-text-field {
+	margin-bottom: 9px;		/* Spacing between fields */
+}
+
+.info-text-label label {
+	display: block;
+	margin-bottom : 12px;	/* Spacing between labels */
+	margin-left: 3%;
+}
+	
+.info-text-label + * {
+	clear: right;			/* Clear float for the element after text labels */
+}
+#form label.error {
+	margin-left: 5px;		/* Indent error messages - used in validator */  /* https://jqueryvalidation.org/reference/ <-- Check here to specify error placement */
+	color: darkblue;
+	font-weight: bold;
+}
+	
+#familySize{				/* Spinner */
+	width: 70px;
+}
+#boulderMiles {				/* Slider */
+	background-color:inherit; 
+	border:none; 
+	font-weight:bold;
+}
+	
+#output-area {
+	float: right;
+	margin-right: 5%;
+	margin-top: 2%;
+	height: 550px;
+	width: 25%;
+	border: 3px solid #e5e5e5;
+}
+
+#output {
+	color: black;
+}
