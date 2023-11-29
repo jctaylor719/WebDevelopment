@@ -23,5 +23,5 @@ This website was my first (HTML-related) final project. In this project, I:
 
 ## Fun Facts
 
-+ The 'Cladogram Table' found under the 'Taxonomy' page was actually made using the <table> tag! I thought it would be a fun challenge, although it certainly is not efficient or dynamic.
++ The 'Cladogram Table' found under the 'Taxonomy' page was actually made using the table tag! I thought it would be a fun challenge, although it certainly is not efficient or dynamic.
 + Fennecs are really cute!
