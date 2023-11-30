@@ -6,10 +6,12 @@
 
 ## Link
 
-This website can be viewed [here]([https://cs.iupui.edu/~jct6/n241/Final_Project/final.html](https://cs.iupui.edu/~jct6/n341/Final-Project/FinalProject/final.html))
+This website can be viewed [here](https://cs.iupui.edu/~jct6/n341/Final-Project/FinalProject/final.html)
 
 ## Showcased Skills
 
 This website was my first javascript-related final project. In this project, I:
 
-+ Utilized AJAX to read and send data to my university's 
++ Utilized AJAX to read and send data through my university's server called tesla
++ Learned how to validate data and create error handlers
++ Learned about potential vulnerabilities, such as SQL injections
