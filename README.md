@@ -1,5 +1,5 @@
 # Web Development
-All projects centered around front-end and back-end development.
+All projects related to front-end and back-end development.
 
 I've categorized each project by the demonstrated skills.
 
